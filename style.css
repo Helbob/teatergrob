@@ -241,6 +241,51 @@ main {
 
 #priserto {
   display: grid;
-  max-width: 350px;
   padding: 2%;
+  max-width: 340px;
+}
+
+#fifth {
+  display: grid;
+  justify-content: center;
+}
+
+#skrab {
+  border-top: 5px white solid;
+  padding: 2%;
+  display: grid;
+  text-align: center;
+}
+
+.max {
+  max-width: 340px;
+  padding: 2%;
+}
+
+.nyhed {
+  background-color: white;
+  color: #38504d;
+  font-family: "Anton", sans-serif;
+  border: none;
+  border-radius: 10px;
+  width: 50%;
+  font-size: 1.2rem;
+}
+
+input {
+  border: none;
+  border-radius: 10px;
+  height: 30px;
+  margin-bottom: 10%;
+}
+
+#galleri {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#galleri p {
+  border: 2px white solid;
+  padding: 15%;
+  text-align: center;
 }
