@@ -1,0 +1,103 @@
+#menu {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  align-items: flex-end;
+  padding: 1.2%;
+  margin: 20px;
+  flex-direction: row;
+  font-family: "Montserrat", sans-serif;
+  list-style-position: inside;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-family: "Bebas Neue", cursive;
+  font-size: 3.5rem;
+}
+
+a:visited {
+  color: #6c9c2d;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+html {
+  background-color: #38504d;
+}
+
+.toggle-btn {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  #knapper {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10%;
+    margin-left: 20%;
+  }
+  .toggle-btn {
+    background: transparent;
+    border: none;
+    display: block;
+    width: 44px;
+    height: 44px;
+    padding: 0.25rem;
+    cursor: pointer;
+    z-index: 3;
+    position: relative;
+    float: right;
+    margin-left: 10%;
+  }
+
+  #forsvind {
+    display: none;
+  }
+  nav {
+    display: none;
+  }
+
+  #menu {
+    flex-direction: column;
+    align-items: center;
+  }
+  nav.shown {
+    padding-top: 1rem;
+    display: flex;
+    flex: 1 1 100%;
+    flex-flow: column;
+    z-index: 2;
+    position: absolute;
+    background: #38504d;
+    width: 100%;
+    height: 100%;
+  }
+
+  .menu-icons {
+    width: 100%;
+    height: 100%;
+  }
+
+  .toggle-btn.open .burger,
+  .close {
+    display: none;
+  }
+
+  nav ul {
+    display: flex;
+    flex-flow: column;
+  }
+  .toggle-btn.open .close,
+  .burger {
+    display: block;
+  }
+
+  li {
+    width: 200px;
+  }
+}
