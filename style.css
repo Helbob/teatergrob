@@ -289,3 +289,11 @@ input {
   padding: 15%;
   text-align: center;
 }
+
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 2%;
+  border-top: 2px white solid;
+}
