@@ -172,3 +172,29 @@ h4 {
 #second h4 {
   float: none;
 }
+
+.forestillinger {
+  font-size: 1.5rem;
+  text-align: center;
+  text-decoration: underline;
+}
+
+#third {
+  display: grid;
+  justify-content: center;
+}
+
+.borderaround {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-top: 5px white solid;
+  border-bottom: 5px white solid;
+  border-right: 5px white solid;
+}
+
+.borderleft {
+  border-left: 5px white solid;
+  width: 50%;
+  justify-self: center;
+  padding: 5%;
+}
