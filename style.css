@@ -10,13 +10,13 @@ iframe {
   width: 100%;
   height: auto;
   aspect-ratio: 16 / 9;
+  padding-bottom: 10px;
 }
 /* --- GENEREL --- */
 html {
   background-color: #38504d;
 }
 main {
-  max-width: 1200px;
   padding: 2%;
 }
 a {
@@ -28,8 +28,17 @@ a {
 h1 {
   font-family: "Anton", sans-serif;
   color: white;
-  font-size: 3rem;
-  text-align: center;
+  /* text-align: center; */
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  #kampagne p {
+    font-size: 0.8rem;
+  }
 }
 
 h2 {
@@ -58,7 +67,8 @@ p {
 }
 .curv {
   font-style: italic;
-  padding: 3%;
+  padding-top: 3%;
+  padding-bottom: 2%;
 }
 .underline {
   text-decoration: underline;
@@ -182,6 +192,7 @@ p {
 }
 .borderbottom {
   border-bottom: 5px white solid;
+  padding-bottom: 30px;
 }
 /* --- SEKTION KAMPAGNE SLUT --- */
 
@@ -282,24 +293,29 @@ p {
   display: grid;
   text-align: center;
 }
-.max {
-  max-width: 340px;
-  padding: 2%;
+@media (max-width: 600px) {
+  .max {
+    max-width: 340px;
+    padding: 2%;
+  }
 }
 .nyhed {
-  background-color: white;
-  color: #38504d;
+  background-color: #577470;
+  color: #ffffff;
   font-family: "Anton", sans-serif;
   border: none;
-  border-radius: 10px;
+  border-radius: 5px;
   width: 50%;
   font-size: 1.2rem;
 }
-input {
-  border: none;
-  border-radius: 10px;
-  height: 30px;
-  margin-bottom: 10%;
+
+@media (max-width: 600px) {
+  input {
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    margin-bottom: 10%;
+  }
 }
 /* --- SKRAB VIND SLUT --- */
 
@@ -323,3 +339,33 @@ footer {
   padding: 15%;
   text-align: center;
 } */
+
+@media (min-width: 600px) {
+  /* --- GENEREL --- */
+  h1 {
+    font-size: 3rem;
+  }
+  /* --- GENEREL SLUT --- */
+
+  /* --- SKRAB VIND --- */
+  .max {
+    max-width: 700px;
+  }
+  /* --- SKRAB VIND SLUT --- */
+
+  /* --- SKRAB VIND START --- */
+  input {
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    margin-bottom: 10%;
+    width: 60%;
+    padding-left: 5px;
+  }
+
+  .nyhed {
+    width: 39%;
+    border-radius: 5px;
+  }
+  /* --- SKRAB VIND SLUT --- */
+}
