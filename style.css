@@ -196,18 +196,20 @@ p {
 }
 /* --- SEKTION KAMPAGNE SLUT --- */
 
-/* --- SEKTION FORSTILLINGER --- */
-#forestillinger {
-  display: grid;
-  justify-content: center;
-  border-top: 5px white solid;
-  margin-top: 20px;
+@media (max-width: 600px) {
+  /* --- SEKTION FORSTILLINGER --- */
+  #forestillinger {
+    display: grid;
+    justify-content: center;
+    border-top: 5px white solid;
+    margin-top: 20px;
+  }
+  .left {
+    float: none;
+    font-size: 1.5rem;
+  }
+  /* --- SEKTION FORSTILLINGER SLUT--- */
 }
-.left {
-  float: none;
-  font-size: 1.5rem;
-}
-/* --- SEKTION FORSTILLINGER SLUT--- */
 
 /* --- SEKTION SECOND --- */
 #second {
