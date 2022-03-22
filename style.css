@@ -749,5 +749,9 @@ footer img {
     grid-template-rows: 1fr 1fr;
     width: 70%;
   }
+
+  #kontakt {
+    gap: 50px;
+  }
   /* --- FOOTER SLUT--- */
 }
