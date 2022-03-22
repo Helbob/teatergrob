@@ -100,6 +100,8 @@ p {
   border-bottom: 5px white solid;
 }
 .left2 {
+  margin-top: 15%;
+  margin-left: 10%;
 }
 .forestillinger1 {
   font-size: 1.5rem;
@@ -557,7 +559,9 @@ footer img {
   }
 
   .left {
-    font-size: 2rem;
+    font-size: 1.5rem;
+    padding-right: 2%;
+    margin-top: 40%;
   }
   /* --- SEKTION FORSTILLINGER SLUT--- */
 
@@ -616,7 +620,7 @@ footer img {
 
   .test4 {
     font-size: 1.5rem;
-    margin-top: 14%;
+    margin-top: 20%;
   }
   #second a {
     font-size: 1.5rem;
