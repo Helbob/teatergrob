@@ -199,26 +199,41 @@ p {
 
 @media (max-width: 600px) {
   /* --- SEKTION FORSTILLINGER --- */
-  #forestillinger {
+  /* #forestillinger {
     display: grid;
     justify-content: center;
     margin-top: 20px;
-  }
+  }*/
   .left {
     float: none;
     font-size: 1.5rem;
   }
-  .spaceborder {
-    display: flex;
-    justify-content: space-between;
+  .spaceborder1 {
     border-top: 5px white solid;
+  }
+
+  .denisova p {
+    font-size: 1rem;
+  }
+
+  .denisova h4 {
+    /* border-bottom: 5px white solid; */
+    font-size: 1rem;
+  }
+
+  .topbot {
+    width: 100%;
   }
   /* --- SEKTION FORSTILLINGER SLUT--- */
 }
 
+.left {
+  font-size: 1rem;
+}
+
 @media (max-width: 600px) {
   /* --- SEKTION SECOND --- */
-  #second {
+  /* #second {
     display: grid;
     justify-content: center;
   }
@@ -233,12 +248,36 @@ p {
   #second h4 {
     float: none;
   }
-  .forestillinger {
+  .forestillinger1 {
     font-size: 1.5rem;
     text-align: center;
     text-decoration: underline;
+  } */
+
+  .test4 {
+    float: none;
+    font-size: 1.5rem;
   }
-  /* --- SEKTION SECOND SLUT --- */
+  .spaceborder2 {
+    border-top: 5px white solid;
+  }
+
+  .kannibalen p {
+    font-size: 1rem;
+  }
+
+  .kannibalen h4 {
+    /* border-bottom: 5px white solid; */
+    font-size: 1rem;
+  }
+
+  .topbot1 {
+    width: 100%;
+  }
+
+  #second a {
+    font-size: 1.1rem;
+  }
 }
 
 /* --- SEKTION THIRD  --- */
@@ -481,7 +520,6 @@ footer {
 
   #second a {
     font-size: 1.5rem;
-    position: absolute;
   }
   /* --- SEKTION FORSTILLINGER SLUT--- */
 
