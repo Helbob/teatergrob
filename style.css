@@ -419,14 +419,14 @@ p {
     padding: 2%;
   }
 }
-.nyhed {
+.submit {
   background-color: #577470;
   color: #ffffff;
   font-family: "Anton", sans-serif;
   border: none;
   border-radius: 5px;
-  width: 50%;
-  font-size: 1.2rem;
+  width: 40%;
+  font-size: 1rem;
 }
 
 @media (max-width: 600px) {
