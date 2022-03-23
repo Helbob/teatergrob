@@ -275,6 +275,11 @@ p {
     font-size: 1rem;
   }
 
+  .left3 {
+    margin-top: 15%;
+    margin-left: 75.1%;
+  }
+
   .denisova h4 {
     /* border-bottom: 5px white solid; */
     font-size: 1.3rem;
@@ -611,9 +616,13 @@ p {
 
   .left2 {
     margin-top: 15%;
-    margin-left: 50%;
+    margin-left: 78%;
   }
 
+  .left3 {
+    margin-top: 15%;
+    margin-left: 76.1%;
+  }
   .topbot {
     border-bottom: none;
     border-top: none;
@@ -705,6 +714,7 @@ p {
   .test4 {
     font-size: 2rem;
     margin-top: 13%;
+    float: right;
   }
   #second a {
     font-size: 1.5rem;
